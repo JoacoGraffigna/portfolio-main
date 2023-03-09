@@ -109,7 +109,7 @@ header .contenedor-texto{
     margin-top:10rem;
     justify-content: center;
     align-content: center;
-    margin-bottom: rem;
+
 }
 
 header .contenedor-texto .texto{
@@ -269,7 +269,7 @@ header .contenedor-texto .texto:hover .profesion{
     justify-content: center;
     text-align: center;
     height: 250px;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .fotito img{
