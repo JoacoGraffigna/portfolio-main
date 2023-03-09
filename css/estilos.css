@@ -104,6 +104,7 @@ header .menu a:hover{
 
 header .contenedor-texto{
     display:flex;
+    margin-top: 1rem;
     margin: 11.9rem 0;
     justify-content: center;
     align-content: center;
@@ -112,7 +113,7 @@ header .contenedor-texto{
 header .contenedor-texto .texto{
     display:inline-block;
     text-align: center;
-    padding: 1.25rem 3.75rem;
+    padding: 2rem 3.75rem;
     position: relative;
     outline: none;
     overflow: hidden;
@@ -228,6 +229,7 @@ header .contenedor-texto .texto .nombre{
     margin-bottom: 0.6rem;
     font-size: 3.1rem;
     line-height: 3.1rem;
+    margin-top: -1rem;
 }
 
 header .contenedor-texto .texto:hover .nombre{
@@ -260,7 +262,7 @@ header .contenedor-texto .texto:hover .profesion{
 }
 
 .main .acerca-de .contenedor .foto{
-    margin-top: -3.75rem;
+    margin-top: -10rem;
 }
 
 .main .acerca-de .contenedor .foto img{
