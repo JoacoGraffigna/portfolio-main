@@ -1180,5 +1180,7 @@ footer .redes-sociales .instagram:hover {
     header .menu nav{
         border-bottom:2px white solid ;
         height: 5rem;
+        align-items: center;
+        justify-content: center;
     }
 }
