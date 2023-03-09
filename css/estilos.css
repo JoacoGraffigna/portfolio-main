@@ -223,6 +223,7 @@ header .contenedor-texto .texto h2{
     color:#fff;
     font-weight: 300;
     margin: 0;
+    transition: 1.5s;
 }
 
 header .contenedor-texto .texto .nombre{
@@ -895,6 +896,8 @@ footer .redes-sociales .instagram:hover {
 @media screen and (max-width: 992px) {
     header .menu{
     text-align: center;
+    align-items: center;
+    justify-content: center;
     }
 
     .main .proyectos .contenedor-proyectos .proyecto{
