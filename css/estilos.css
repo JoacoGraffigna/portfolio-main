@@ -106,10 +106,10 @@ header .menu a:hover{
 
 header .contenedor-texto{
     display:flex;
-    margin-top: 1rem;
-    margin: 11.9rem 0;
+    margin-top:20rem;
     justify-content: center;
     align-content: center;
+    margin-bottom: rem;
 }
 
 header .contenedor-texto .texto{
@@ -264,24 +264,28 @@ header .contenedor-texto .texto:hover .profesion{
     padding-bottom: 2rem;
 }
 
-.main .acerca-de .contenedor .foto{
-    margin-top: -10rem;
+.fotito{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    margin-top: 10rem;
 }
 
-.main .acerca-de .contenedor .foto img{
-    vertical-align: top;
-    border-radius: 100%;
-    border: solid 0.28rem rgba(0, 0, 0, 0.3);
+.fotito img{
+    border-radius: 70%;
+    border: solid 2px white;
     transition: transform 0.3s ease;
     object-fit: cover;
     width: 150px;
+    margin-top: 1rem;
    
 }
 
 
-.main .acerca-de .contenedor .foto img:hover{
+.fotito img:hover{
     transform: scale(1.6);
-    border: solid 0.28rem rgba(0, 0, 0, 0.8);
+    border: solid 2px white;
 }
 
 .main .acerca-de .texto .titulo{
@@ -293,6 +297,10 @@ header .contenedor-texto .texto:hover .profesion{
     color: black;
     opacity:0.8;
     width: 100%;
+}
+
+.titulo{
+    padding-top: 5rem;
 }
 
 .main .acerca-de .texto .titulo:hover{
