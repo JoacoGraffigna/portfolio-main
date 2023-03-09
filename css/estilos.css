@@ -394,14 +394,14 @@ header .contenedor-texto .texto:hover .profesion{
     align-content: center;
 }
 
-.main .cursos .contenedor-cursos .curso .thumm-curso a{
+.main .cursos .contenedor-cursos .curso .thumm-curso span{
     width: 11.25rem;
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
-.main .cursos .contenedor-cursos .curso .thumm-curso a img{
+.main .cursos .contenedor-cursos .curso .thumm-curso span img{
     width: 9rem;
     height: 8.75rem;
     border-radius: 100%;
