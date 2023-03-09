@@ -269,6 +269,8 @@ header .contenedor-texto .texto:hover .profesion{
     border: solid 0.28rem rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
     object-fit: cover;
+    width: 150px;
+   
 }
 
 
