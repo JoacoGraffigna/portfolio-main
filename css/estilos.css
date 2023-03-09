@@ -1174,6 +1174,7 @@ footer .redes-sociales .instagram:hover {
 @media screen and (max-width:600px){
     header .menu nav ul li a{
         font-size: 12px;
+        border-bottom: 0.5px white solid;
     }
     
     header .menu nav{
