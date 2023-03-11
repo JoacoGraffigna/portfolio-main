@@ -1183,4 +1183,14 @@ footer .redes-sociales .instagram:hover {
         align-items: center;
         justify-content: center;
     }
+
+    .separador-skills{
+        width: 100%;
+        height: 30rem;
+        background: url(/img/separador-skills.jpg);
+        background-size: cover;
+        
+    }
+    
 }
+
