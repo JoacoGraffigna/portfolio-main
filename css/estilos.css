@@ -244,6 +244,8 @@ header .contenedor-texto .texto:hover .nombre{
 header .contenedor-texto .texto .profesion{
     font-size: 1.55rem;
     line-height: 1.55rem;
+    color: white;
+    margin-top: 1rem;
 }
 
 header .contenedor-texto .texto:hover .profesion{
@@ -1193,4 +1195,3 @@ footer .redes-sociales .instagram:hover {
     }
     
 }
-
