@@ -394,18 +394,32 @@
         <footer id="footer">
 
             <!--Inicio Seccion de contacto--->
-            <section class="contacto">
-                <div class="contenedor">
-                    <h3 class="titulo">CONTACTO</h3>
-                    <hr class="divider">
-                    <form class="formulario" action="" method="post">
-                        <input id="nombre" type="text" name="nombre" placeholder="Nombre" required>
-                        <input id="email" type="email" name="email" placeholder="Email" required>
-                        <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
-                        <input class="boton" type="submit" value="Enviar">
-                    </form>
-                </div>
-            </section>
+            <section class="formu">
+                <form id="formulario" data-aos="fade-right"  action="https://formsubmit.co/joacograffigna@gmail.com" method="POST"> 
+                  <h2> Contacto</h2>
+                  <div class="input-group">
+          
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" placeholder="Nombre" >
+          
+                    <label for="name">Celular</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Telefono" >
+          
+                    <label for="correo">Correo electronico</label>
+                    <input type="correo" name="correo" id="correo" placeholder="Correo electronico" >
+          
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="2" placeholder="Mensaje"></textarea>
+          
+                  <input class="boton" type="submit" value="Enviar">
+          
+                  <input type="hidden" name="-next" value="https://veromeroicoach2.netlify.app/">
+                  <input type="hidden" name="-captcha" value="false">
+                  </div>
+          
+                </form>
+              </section>
+          
             <!--Fin Seccion de contacto--->
 
             <!--Inicio Seccion de Redes Sociales--->
