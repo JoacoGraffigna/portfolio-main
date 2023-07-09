@@ -1195,3 +1195,88 @@ footer .redes-sociales .instagram:hover {
     }
     
 }
+
+
+
+.formu{
+    display: flex;
+    width: 100%;
+    background-color: #c7c6c3;
+  }
+  
+  #formulario{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  
+  form{
+    background-color: white;
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    margin-top: 8rem;
+    height: 610px;
+  }
+  
+  .input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  form h2{
+    color:#283629;
+    font-size: 35px;
+  }
+  
+  label{
+    color:#283629;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  input,textarea{
+    padding:7px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #EDFFF0;
+    border: 2px solid #f0faf1;
+    color:#283629 ;
+    outline: none;
+  
+  }
+  
+  
+  .boton{
+    font-size: 16px;
+    color: #ffffff;
+    border:0;
+    border-radius: 25px;
+    background-color: #51d94c;
+    box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
+    cursor:pointer;
+  }
+  
+  .btn:hover{
+    background-color: #000;
+  }
+  
+  @media(max-width:991px){
+    form{
+      padding: 50px 30px;
+      width: 80%;
+      height: 660px;
+    }
+  
+    input{
+      padding: 15px;
+      width: 99%;
+    }
+  
+  
+  
+  }
