@@ -319,12 +319,13 @@ header .contenedor-texto .texto:hover .profesion{
     padding: 1rem;
     border: 0.15rem inset rgba(36, 35, 35, 0.212);
     box-shadow: 0 0 1rem rgba(36, 35, 35, 0.925);
+    width: 100%;
+    
 }
 
 .main .acerca-de .texto .acerca-de-descripcion:hover{
-    box-shadow: 0 0 1rem rgb(10, 10, 10);
-    border: 0.15rem inset rgba(36, 35, 35, 0.295);
-    color: #383232;
+    transform: scale(1.1);
+    transition: 1s;
 }
 
 .main .acerca-de .texto{
@@ -885,6 +886,7 @@ footer .redes-sociales .linkedin:hover {
     background: radial-gradient(circle at 30% 107%, #c3e7f8 0%, #39a0cf 5%, #0e76A8 45%,#044d6e 90%);
     box-shadow: 0 0.19rem 0.6rem rgba(0,0,0,.8);
     transform: scale(1.4);
+    transition: 0.5s;
 }
 
 footer .redes-sociales .github:hover {
@@ -897,6 +899,7 @@ footer .redes-sociales .instagram:hover {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     box-shadow: 0 0.19rem 0.6rem rgba(0,0,0,.8);
     transform: scale(1.4);
+    transition: 0.5s;
 }
 
 
