@@ -1,7 +1,7 @@
 
 $(()=>{
   new TypeIt("#simpleUsage", {
-    strings: "FrontEnd developer",
+    strings: "FullStack Dev",
     speed: 50,
     waitUntilVisible: true,
   }).go();
