@@ -525,6 +525,7 @@ header .contenedor-texto .texto:hover .profesion{
 }
 
 .main .proyectos .titulo:hover{
+    cursor: pointer;
     opacity:1;
 }
 
@@ -578,10 +579,6 @@ header .contenedor-texto .texto:hover .profesion{
 
 }
 
-.main .proyectos .contenedor-proyectos .proyecto .thumb:hover::before{
-    transform: scale(1) rotate(360deg) ;
-    opacity: 0.8;
-}
 
 .main .proyectos .contenedor-proyectos .proyecto .thumb:hover p{
     opacity: 1;
